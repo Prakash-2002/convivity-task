@@ -8,7 +8,7 @@ import { BsArrowUpRightCircle } from "react-icons/bs";
 const Feed = () => {
 
   
-  const taskTime = "10:00 AM";
+  
   
   // Dummy image URL
   
@@ -73,7 +73,7 @@ const Feed = () => {
       <div className="card-content">
         <div className="card-date">Today<BsArrowUpRightCircle  size={20}/></div>
         <div className="card-task">Testing and User Feedback</div>
-        <div className="card-time">{taskTime} <div className="card-image">
+        <div className="card-time">09:00 AM-10:00 AM <div className="card-image">
         <img src={images} alt="Placeholder" />
       </div></div>
       </div>
@@ -82,7 +82,7 @@ const Feed = () => {
        <div className="card-content">
         <div className="card-date">Today<BsArrowUpRightCircle  size={20}/></div>
         <div className="card-task">Create A Visual Style Guide</div>
-        <div className="card-time">{taskTime} <div className="card-image">
+        <div className="card-time">09:00 AM-10:00 AM <div className="card-image">
         <img src={images} alt="Placeholder" />
       </div></div>
       </div>
@@ -91,7 +91,7 @@ const Feed = () => {
       <div className="card-content">
         <div className="card-date">1 May 2024<BsArrowUpRightCircle  size={20}/></div>
         <div className="card-task">Meeting with Client</div>
-        <div className="card-time">{taskTime} <div className="card-image">
+        <div className="card-time">09:00 AM-10:00 AM<div className="card-image">
         <img src={images} alt="Placeholder" />
       </div></div>
       </div>
@@ -104,7 +104,7 @@ const Feed = () => {
       <div className="card-content">
         <div className="card-date">2 May 224<BsArrowUpRightCircle  size={20}/></div>
         <div className="card-task">Create Mockups for Dribbble Shot</div>
-        <div className="card-time">{taskTime} <div className="card-image">
+        <div className="card-time">09:00 AM-10:00 AM <div className="card-image">
         <img src={images} alt="Placeholder" />
       </div></div>
       </div>
@@ -114,7 +114,7 @@ const Feed = () => {
       <div className="card-content">
         <div className="card-date">3 May 2024<BsArrowUpRightCircle  size={20}/></div>
         <div className="card-task">Slicing Landing Page</div>
-        <div className="card-time">{taskTime} <div className="card-image">
+        <div className="card-time">09:00 AM-10:00 AM<div className="card-image">
         <img src={images} alt="Placeholder" />
       </div></div>
       </div>
@@ -124,7 +124,7 @@ const Feed = () => {
       <div className="card-content">
         <div className="card-date">3 May 2024<BsArrowUpRightCircle  size={20}/></div>
         <div className="card-task">Analyze Research Data</div>
-        <div className="card-time">{taskTime} <div className="card-image">
+        <div className="card-time">09:00 AM-10:00 AM<div className="card-image">
         <img src={images} alt="Placeholder" />
       </div></div>
       </div>
@@ -134,7 +134,7 @@ const Feed = () => {
       <div className="card-content">
         <div className="card-date">3 May 2024<BsArrowUpRightCircle  size={20}/></div>
         <div className="card-task">Develop Back-End Systems</div>
-        <div className="card-time">{taskTime} <div className="card-image">
+        <div className="card-time">09:00 AM-10:00 AM<div className="card-image">
         <img src={images} alt="Placeholder" />
       </div></div>
       </div>
@@ -144,7 +144,7 @@ const Feed = () => {
       <div className="card-content">
         <div className="card-date">3 May 2024<BsArrowUpRightCircle  size={20}/></div>
         <div className="card-task">Optimize Web Performance</div>
-        <div className="card-time">{taskTime} <div className="card-image">
+        <div className="card-time">09:00 AM-10:00 AM <div className="card-image">
         <img src={images} alt="Placeholder" />
       </div></div>
       </div>
@@ -154,7 +154,7 @@ const Feed = () => {
       <div className="card-content">
         <div className="card-date">3 May 2024<BsArrowUpRightCircle  size={20}/></div>
         <div className="card-task">Testing and feedback</div>
-        <div className="card-time">{taskTime} <div className="card-image">
+        <div className="card-time">09:00 AM-10:00 AM <div className="card-image">
         <img src={images} alt="Placeholder" />
       </div></div>
       </div>
@@ -164,7 +164,7 @@ const Feed = () => {
       <div className="card-content">
         <div className="card-date">3 May 2024<BsArrowUpRightCircle  size={20}/></div>
         <div className="card-task">UX Research: Usability Testing</div>
-        <div className="card-time">{taskTime} <div className="card-image">
+        <div className="card-time">09:00 AM-10:00 AM<div className="card-image">
         <img src={images} alt="Placeholder" />
       </div></div>
       </div>
@@ -174,7 +174,7 @@ const Feed = () => {
       <div className="card-content">
         <div className="card-date">3 May 2024<BsArrowUpRightCircle  size={20}/></div>
         <div className="card-task">Implement Security Features</div>
-        <div className="card-time">{taskTime} <div className="card-image">
+        <div className="card-time">09:00 AM-10:00 AM <div className="card-image">
         <img src={images} alt="Placeholder" />
       </div></div>
       </div>
@@ -184,7 +184,7 @@ const Feed = () => {
       <div className="card-content">
         <div className="card-date">3 May 2024<BsArrowUpRightCircle  size={20}/></div>
         <div className="card-task">Meeting with Client</div>
-        <div className="card-time">{taskTime} <div className="card-image">
+        <div className="card-time">09:00 AM-10:00 AM <div className="card-image">
         <img src={images} alt="Placeholder" />
       </div></div>
       </div>
@@ -194,7 +194,7 @@ const Feed = () => {
       <div className="card-content">
         <div className="card-date">3 May 2024<BsArrowUpRightCircle  size={20}/></div>
         <div className="card-task">Analyze Research Data</div>
-        <div className="card-time">{taskTime} <div className="card-image">
+        <div className="card-time">09:00 AM-10:00 AM<div className="card-image">
         <img src={images} alt="Placeholder" />
       </div></div>
       </div>

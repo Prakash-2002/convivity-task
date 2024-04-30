@@ -3,7 +3,12 @@ import './Sidebar.css';
 import profile from './user.jpg';
 
 import {
+  MdDarkMode,
   MdKeyboardArrowDown,
+  
+  
+  
+  MdLightMode,
   
   MdOutlineAttachMoney,
   MdOutlineBarChart,
@@ -12,10 +17,13 @@ import {
   
 
   
-  MdOutlineCurrencyExchange,
+  
   MdOutlineGridView,
  
+  MdOutlineLaptopChromebook,
+ 
   MdOutlinePeople,
+  MdOutlineScreenSearchDesktop,
   MdOutlineSettings,
   MdOutlineTask,
  
@@ -80,6 +88,7 @@ const Sidebar = () => {
               
                 <span className="menu-link-icon">
                   <MdOutlineAttachMoney size={20} />
+                  
                 </span>
                 <span className="menu-link-text">Project Overview</span>
             
@@ -130,7 +139,8 @@ const Sidebar = () => {
             <li className="menu-item">
               
                 <span className="menu-link-icon">
-                  <MdOutlineAttachMoney size={20} />
+                  
+                  <MdOutlineLaptopChromebook size={20}/>
                 </span>
                 <span className="menu-link-text">Development</span>
             
@@ -138,7 +148,8 @@ const Sidebar = () => {
             <li className="menu-item">
               
                 <span className="menu-link-icon">
-                  <MdOutlineCurrencyExchange size={18} />
+                 
+                  <MdOutlineScreenSearchDesktop size={18}/>
                 </span>
                 <span className="menu-link-text">Research</span>
            
@@ -148,9 +159,9 @@ const Sidebar = () => {
           </ul>
         </div>
       </div>
-      <div>
-        <button>Dark</button>
-        <button>Light</button>
+      <div  className="app-content">
+        <button><MdDarkMode />Dark</button>
+        <button><MdLightMode />Light</button>
       </div>
     </div>
   );
