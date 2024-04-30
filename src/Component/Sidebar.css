@@ -1,0 +1,108 @@
+.sidebar {
+  background: #fff;
+  width: 20%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+
+  margin-right: 2px;
+  background-color: rgb(219, 219, 231);
+}
+.sidebar-brand{
+  display: flex;
+  flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+.sidebar-brand h1{
+  font-weight: 700;
+}
+
+.sidebar-brand span{
+  color: goldenrod;
+}
+.name-container{
+  display: flex;
+  
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 4px;
+  font-weight: 500;
+ align-items: center;
+ justify-content: center;
+  
+  width: 100%;
+  overflow: hidden;
+
+}
+.name-container .imag img{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin: 5px;
+  display: flex;
+  
+}
+.name-container .name p{
+  font-size: .6rem;
+}
+.name-container .name .username{
+  font-size: .7rems;
+  font-weight: 900;
+}
+.sub {
+  margin-top: 0px;
+  font-size: 10px;
+  font-weight: 600;
+}
+h1 {
+  font-size: 20px;
+}
+.menu-list ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.sidebar-body{
+  width: fit-content;
+}
+.menu-item {
+  display: flex;
+  align-items: center;
+font-weight: 500;
+}
+.sidebar-menu ul {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  margin-bottom: 10px;
+  padding: 5px;
+  
+}
+
+.sidebar-menu ul li {
+  list-style: none;
+  margin-left: 0px;
+ margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: goldenrod;
+  color: #fff;
+ 
+}
+.head-menu{
+  display: flex;
+ align-items: center;
+  margin-left: 12px;
+}
+
+@media screen and (max-width: 700px) {
+  .menu-link-text{
+    display: none;
+  }
+  .name{
+    display: none;
+  }
+  
+}
