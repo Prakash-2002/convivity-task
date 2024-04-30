@@ -5,8 +5,27 @@
   margin-left: 20%;
   background-image: url(./desert.jpg);
   color: aliceblue;
+  display: flex;
+  justify-content: space-between;
   
 }
+.left{
+ 
+margin-top: 5%;
+}
+.left p{
+  font-size: 8px;
+}
+.left h1{
+  font-size: 1rem;
+}
+.right{
+  
+  
+  margin-top: 5%;
+}
+
+
 @media screen and (max-width: 700px) {
  
 }
